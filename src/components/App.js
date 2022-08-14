@@ -1,18 +1,16 @@
 import Counter from "./Counter";
 
 const App = () => {
-    return (
-        <Counter
-        // counter={getState().value}
-        // inc={inc}
-        // dec={dec}
-        // rnd={() => {
-        //   const value = Math.floor(Math.random() * 10);
+  return <>
+    <Counter />
+    <Com/>
+  </>;
+};
 
-        //   rnd(value);
-        // }}
-      />
+const Com = () => {
+    console.log('Com');
+    return (
+        <h1>Com</h1>
     );
 }
-
 export default App;
